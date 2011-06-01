@@ -12,6 +12,8 @@ gem 'factory_girl_rails', :group => [ :development, :test ]
 gem 'database_cleaner', :group => [ :development, :test ]
 gem 'capybara', :group => [ :development, :test ]
 
+gem 'therubyrunner', :group => :production
+
 run 'bundle install'
 
 generate 'nifty:layout --haml'
